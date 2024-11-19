@@ -1,0 +1,21 @@
+{
+  "name": "playwright-ts-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "//test": "playwright test",
+    "test:browserstack": "npx browserstack-node-sdk playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2",
+    "browserstack-node-sdk": "^1.34.23",
+    "playwright": "^1.44.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,12 @@
+userName: nguyendoan_Ysky8D
+accessKey: FXEQzLM3dBSBcyncV7St
+framework: playwright
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Ventura
+    browserName: playwright-webkit
+    browserVersion: latest

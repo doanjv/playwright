@@ -1,0 +1,6 @@
+2024-11-19 10:37:54 - [32minfo[39m: Reading configs from /Users/doan.nguyenvan/Desktop/projects/playwright-ts-framework/browserstack.yml
+2024-11-19 10:37:54 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-11-19 10:38:28 - [32minfo[39m: Visit https://observability.browserstack.com/builds/atkkveynezrpebl8jqzpu9j4wetcsfs8kdejckmb to view build report, insights, and many more debugging information all at one place!
+
+2024-11-19 10:38:28 - [33mwarn[39m: Unable to show build URL, as build capability is not used
+2024-11-19 10:38:31 - [32minfo[39m: Deleting /Users/doan.nguyenvan/Desktop/projects/playwright-ts-framework/playwright-browserstack-sdk.config.ts
