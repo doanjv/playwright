@@ -20,6 +20,8 @@ CI with Jenkins:
 Create Jenkins Job with Dockerfile
 Confiure System > Global Variables:
 PATH = /usr/local/bin/docker-compose:/bin:/usr/bin:/usr/local/bin
+Jenkins Script Console, run : System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
+
 trigger job
 Jenkins plugins:
 - HTML Publisher
