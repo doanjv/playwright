@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test",
+    "test": "npx playwright test",
     "test:browserstack": "npx browserstack-node-sdk playwright test"
   },
   "keywords": [],
