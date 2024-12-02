@@ -6,7 +6,7 @@ test.describe.parallel('Login Tests', () => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
     await loginPage.login('standard_user', 'secret_sauce');
-    expect(await page.locator('xpath=//button[@id="react-burger-menu-btn"]')).toBeVisible();
+    await expect( page.locator('xpath=//button[@id="react-burger-menu-btn"]')).toBeVisible();
 
   });
 
@@ -14,7 +14,7 @@ test.describe.parallel('Login Tests', () => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
     await loginPage.login('invalidUser', 'invalidPassword');
-    expect(await page.locator('xpath=//button[@id="react-burger-menu-btn"]')).toBeVisible();
+    await expect( page.locator('xpath=//button[@id="react-burger-menu-btn"]')).toBeVisible();
 
   });
 });
